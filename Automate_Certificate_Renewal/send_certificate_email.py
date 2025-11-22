@@ -10,7 +10,7 @@ def main(domain, to_list, cc_list, aws_key, aws_secret, region,
          aws_key_2, aws_secret_2, bucket_name, prefix):
 
     if not domain:
-        print("[ERROR] Domain is required.")
+        print("[ERROR] Domain is required....")
         sys.exit(1)
 
     # Step 1: Locate the certificate directory
